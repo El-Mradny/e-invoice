@@ -1,0 +1,110 @@
+{
+  "issuer": {
+    "type": "B",
+    "id": "10201020102",  //company registration no.
+    "name": "My company", //Company Name
+    "address": {
+      "branchId": "1234",
+      "country": "EG",
+      "governate": "Giza Governorate",
+      "regionCity": "Dokki",
+      "street": "bin mahmoud" ,
+      "buildingNumber": "17",
+      "postalCode": "", // OPTIONAL:
+      "floor": "", // OPTIONAL:
+      "room":"", // OPTIONAL:
+      "landmark": "",// OPTIONAL:
+      "additionalInformation": ""// OPTIONAL:
+    }
+  },
+  "receiver":{
+    "type": "B",
+    "id": "10201020102",
+    "name": "reciever company",
+    "address": {
+      "country": "EG",
+      "governate": "Giza Governorate",
+      "regionCity": "Dokki",
+      "street": "bin mahmoud" ,
+      "buildingNumber": "17",
+      "postalCode": "", // OPTIONAL:
+      "floor": "", // OPTIONAL:
+      "room":"", // OPTIONAL:
+      "landmark": "",// OPTIONAL:
+      "additionalInformation": ""// OPTIONAL:
+    }
+  },
+  "documentType": "d", // Debit Note (d)
+  "documentTypeVersion": "1.0",
+  "dateTimeIssued": "2015-02-13T13:15:00Z",
+  "taxpayerActivityCode": "9478",
+  "internalId": "AZ-24883", //Defind by submitter
+  "purchaseOrderReference": "P-233-A6375", // OPTIONAL:
+  "purchaseOrderDescription": "", // OPTIONAL:
+  "salesOrderReference": "828874-023/233", // OPTIONAL:
+  "salesOrderDescription": "", // OPTIONAL:
+  "proformaInvoiceNumber": "2020A-012", //OPTIONAL:
+  "references": "S98L2CP1SMVBIU",//OPTIONAL:
+  "payment": {
+    "bankName": "QNB", //My company Bank //OPTIONAL:
+    "bankAddress": "", //OPTIONAL:
+    "bankAccountNo": "12-1982939",//OPTIONAL:
+    "bankAccountIBAN": "",//OPTIONAL:
+    "swiftCode": "",//OPTIONAL:
+    "terms": ""//OPTIONAL:
+  },
+  "delivery": {
+    "approach": "",//OPTIONAL:
+    "packaging": "",//OPTIONAL:
+    "dateValidity": "2015-02-13T13:15:00Z",//OPTIONAL:
+    "exportPort": "",//OPTIONAL:
+    "countryOfOrigin": "",//OPTIONAL:
+    "grossWeight": "",//OPTIONAL:
+    "netWeight": "",//OPTIONAL:
+    "terms": ""//OPTIONAL:
+
+  },
+  "invoiceLines": {
+    "description": "One ton of Aria apples.",
+    "itemType": "GS1", // Choose GS1 or EGS
+    "itemCode": "10003752",
+    "unitType": "kg",
+    "unitValue": {
+      "currencySold": "EGP", //Currency code used from ISO 4217.
+      "amountEGP": 1.21984,
+      "amountSold": 1.21984,
+      "currencyExchangeRate": 1.21984
+    },
+    "salesTotal": 23.67485,
+    "total": 23.67485,
+    "valueDifference": 10.68942,
+    "totalTaxableFees": 1.25782,
+    "netTotal": 1.25782,
+    "itemsDiscount": 1.25782,
+    "discount": {
+      "rate": "5.00", //discount percentage rate
+      "amount": "10.00678"
+    },
+    "taxableItems": {
+      "taxType": "",//Two type (taxable || non-taxable) files
+      "amount": "",
+      "subType": "",
+      "rate": ""
+    },
+    "internalCode": "83835"
+  },
+  "totalSalesAmount": 8873.29956,
+  "totalDiscountAmount": 663.23985,
+  "netAmount": 8183.23857,
+  "taxTotals": {
+    "taxType": "",
+    "amount": ""
+  },
+  "extraDiscountAmount": 12.09864,
+  "totalItemsDiscountAmount": 663.23946,
+  "totalAmount": 8934.00769,
+  "signatures": {
+    "type": "I",
+    "value": ""
+  }
+}
